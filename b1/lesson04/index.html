@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 04</title>
+  </head>
+  <body>
+    <input type="password" id="mat-khau" value="123456" />
+    <button type="button" id="btn-mat-khau">Hiển thị mật khẩu</button>
+
+    <script>
+      const oMatKhau = document.querySelector("#mat-khau");
+      const nut = document.querySelector("#btn-mat-khau");
+
+      nut.addEventListener("click", () => {
+        const dangAn = oMatkhau.type === "password";
+        oMatKhau.type = dangAn ? "text" : "password";
+        nut.textContent = dangAn ? "Ẩn" : "Hiển thị mật khẩu";
+      });
+    </script>
+  </body>
+</html>
