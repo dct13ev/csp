@@ -10,3 +10,10 @@ body {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
+.text {
+    color: blue;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
