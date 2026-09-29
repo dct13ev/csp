@@ -10,3 +10,7 @@ body {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
+label {
+    font-weight: bold; /* Hoặc bạn có thể dùng số như 600, 700 */
+}
