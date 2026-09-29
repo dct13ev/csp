@@ -1,16 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .bodem {
-    color: red;
-    font-size: 16px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+  color: red;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 #text {
-    color: red;
+  color: red;
 }
