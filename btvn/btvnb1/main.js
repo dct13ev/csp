@@ -5,7 +5,7 @@ const inputCount = document.getElementById('input-count');
 
 textArea.addEventListener('input', () => {
   const textLength = textArea.value.length;
-  textCount.textContent = `Số ký tự: ${textLength}`;
+  textCount.textContent = `${textLength}`;
 });
 
 inputField.addEventListener('input', () => {
