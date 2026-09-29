@@ -11,7 +11,7 @@ body {
   margin-bottom: 20px;
 }
 
-#texttd:: {
+#texttd::placeholder {
   color: red;
 }
 
