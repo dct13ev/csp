@@ -1,14 +1,14 @@
-const textArea = document.getElementById('text');
-const inputField = document.getElementById('input');
-const textCount = document.getElementById('text-count');
-const inputCount = document.getElementById('input-count');
+const textArea = document.getElementById("text");
+const inputField = document.getElementById("input");
+const textCount = document.getElementById("text-count");
+const inputCount = document.getElementById("input-count");
 
-textArea.addEventListener('input', () => {
+textArea.addEventListener("input", () => {
   const textLength = textArea.value.length;
   textCount.textContent = `Max ${textLength} / 140`;
 });
 
-inputField.addEventListener('input', () => {
+inputField.addEventListener("input", () => {
   const inputLength = inputField.value.length;
   inputCount.textContent = `Maximum ${inputLength} / 20`;
 });
