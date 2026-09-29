@@ -5,7 +5,7 @@ const inputCount = document.getElementById('input-count');
 
 textArea.addEventListener('input', () => {
   const textLength = textArea.value.length;
-  textCount.textContent = `Maximum ${textLength} / 140`;
+  textCount.textContent = `Max ${textLength} / 140`;
 });
 
 inputField.addEventListener('input', () => {
