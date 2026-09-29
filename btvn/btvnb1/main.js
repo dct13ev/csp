@@ -7,3 +7,8 @@ textArea.addEventListener('input', () => {
   const textLength = textArea.value.length;
   textCount.textContent = `Số ký tự: ${textLength}`;
 });
+
+inputField.addEventListener('input', () => {
+  const inputLength = inputField.value.length;
+  inputCount.textContent = `Số ký tự: ${inputLength}`;
+});
