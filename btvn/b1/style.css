@@ -19,3 +19,7 @@ hr {
   width: 25%;
 }
 
+form {
+          max-width: 400px;
+          margin: auto;
+}
