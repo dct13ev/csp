@@ -1,1 +1,1 @@
-const oTen
+const oTen = document.getElementById('ten');
