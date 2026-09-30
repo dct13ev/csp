@@ -1,1 +1,0 @@
-const demoBox = document.querySelector('#btn-otp');
