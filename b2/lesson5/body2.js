@@ -1,2 +1,2 @@
 const oTen = document.getElementById('ten');
-co
+const ods = document.getElementById('ds');
