@@ -1,3 +1,3 @@
-const oTen = document.getElementById('ten');
-const ods = document.getElementById('ds');
-const from = document.getElementById('from');
+const oTen = document.querySelector('#ten');
+const ods = document.querySelector('#ds');
+const from = document.querySelector('#from');
