@@ -11,5 +11,6 @@ body {
 }
 
 .demo-box input {
-    padding: 6px 8p;
+    padding: 6px 8px;
+    width: 12px;
 }
