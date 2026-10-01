@@ -7,5 +7,5 @@ body {
 
 .demo-box {
     border: 1px solid #ddd;
-    p
+    padding: 12px;
 }
