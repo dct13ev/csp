@@ -30,4 +30,6 @@ body {
     padding: 8px 0;
 }
 
-#ds button
+#ds button {
+    cursor: pointer;
+}
