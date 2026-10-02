@@ -12,6 +12,17 @@ function luuDuLieu() {
     capNhatSoLuong();
 }
 
+function taoMonAn(ten, trangThaiMua) {
+    const li = document.createElement("li");
+    
+    const span = document.createElement("span");
+    span.textContent = ten;
+    
+    if (trangThaiMua === true) {
+        span.classList.add("da-mua");
+    }
+}
+
 function layDuLieu() {
     const duLieu = localStorage.getItem("dsMonAn");
     if (duLieu) {
