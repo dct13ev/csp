@@ -21,8 +21,18 @@ function taoMonAn(ten, trangThaiMua) {
     if (trangThaiMua === true) {
         span.classList.add("da-mua");
     }
-    
+    span.addEventListener("click", () => {
+        span.classList.toggle("da-mua");
+        capNhatSoLuong(); // Đếm lại khi gạch ngang
+    });
+
+    span.addEventListener("dblclick", () => {
+        li.remove();
     capNhatSoLuong();
+    });
+
+    li.appendChild(span);
+    document.getElementById("box-ds").appendChild(li);
 }
 
 function layDuLieu() {
