@@ -18,7 +18,9 @@ from.addEventListener("submit", (e) => {
     nutXoa.addEventListener("click", () => {
         li.remove();
     });
+    
 
+    
     li.append(span, nutXoa);
     boxDs.append(li);
     boxTen.value = "";
