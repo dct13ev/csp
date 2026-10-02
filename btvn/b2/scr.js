@@ -31,6 +31,7 @@ from.addEventListener("submit", (e) => {
   nutXoa.textContent = "X";
   nutXoa.addEventListener("click", () => {
     li.remove();
+    capNhatSoLuong();
   });
 
   span.addEventListener("dblclick", () => {
