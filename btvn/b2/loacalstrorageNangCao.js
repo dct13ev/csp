@@ -11,3 +11,4 @@ function luuDuLieu() {
     });
     capNhatSoLuong();
 }
+f
