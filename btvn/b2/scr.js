@@ -40,4 +40,5 @@ from.addEventListener("submit", (e) => {
   boxDs.append(li);
   boxTen.value = "";
   boxTen.focus();
+  capNhatSoLuong();
 });
