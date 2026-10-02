@@ -36,6 +36,7 @@ from.addEventListener("submit", (e) => {
 
   span.addEventListener("dblclick", () => {
     li.remove(); 
+    capNhatSoLuong();
   });
 
   li.append(span, nutXoa);
