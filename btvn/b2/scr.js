@@ -30,7 +30,6 @@ from.addEventListener("submit", (e) => {
   nutXoa.type = "button";
   nutXoa.textContent = "X";
   nutXoa.addEventListener("click", () => {
-    capNhatSoLuong();
     li.remove();
   });
 
