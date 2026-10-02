@@ -3,7 +3,10 @@ const boxDs = document.querySelector("#box-ds");
 const from = document.querySelector("#from");
 const soDem = document.querySelector("#so-dem");
 
-
+function capNhatSoDem() {
+  const soLuongMonAn = boxDs.querySelectorAll("li").length;
+  soDem.textContent = `Số lượng món ăn: ${soLuongMonAn}`;
+}
 
 from.addEventListener("submit", (e) => {
   e.preventDefault();
