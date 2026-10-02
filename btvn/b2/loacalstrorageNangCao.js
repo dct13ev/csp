@@ -11,4 +11,14 @@ function luuDuLieu() {
     });
     capNhatSoLuong();
 }
-f
+
+function layDuLieu() {
+    const duLieu = localStorage.getItem("dsMonAn");
+    if (duLieu) {
+        const mangDuLieu = JSON.parse(duLieu);
+        mangDuLieu.forEach(monAn => {
+            taoMonAn(monAn.ten, monAn.daMua);
+        });
+    }
+    capNhatSoLuong();
+}
