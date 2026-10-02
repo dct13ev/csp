@@ -5,7 +5,7 @@ const soDem = document.querySelector("#so-dem");
 
 function capNhatSoDem() {
   const tongSoMon = document.querySelectorAll("#box-ds li").length;
-  soDem.textContent = `Số lượng món ăn: ${soLuongMonAn}`;
+  const soDaMua = document.querySelectorAll("#box-ds .da-mua").length;
 }
 
 from.addEventListener("submit", (e) => {
