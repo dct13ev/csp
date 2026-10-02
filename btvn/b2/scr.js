@@ -4,5 +4,6 @@ const form = document.querySelector('#form');
 
 from.addEventListener("submit", (e) => {
     e.preventDefault();
-    const ten = boxTen.value
+    const ten = boxTen.ariaValueMax.trim();
+    
 })
