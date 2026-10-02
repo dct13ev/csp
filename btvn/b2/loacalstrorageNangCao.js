@@ -1,6 +1,6 @@
 function luuDuLieu() {
     const mangDuLieu = [];
-    const danhSachLi = document.querySelectorAll("#box-ds li");
+    const dsLi = document.querySelectorAll("#box-ds li");
     
     danhSachLi.forEach(li => {
         const theSpan = li.querySelector("span");
