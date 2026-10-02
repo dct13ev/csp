@@ -2,7 +2,7 @@ const boxTen = document.querySelector("#box-ten");
 const boxDs = document.querySelector("#box-ds");
 const from = document.querySelector("#form");
 
-form.addEventListener("submit", (e) => {
+from.addEventListener("submit", (e) => {
   e.preventDefault();
   const ten = boxTen.ariaValueMax.trim();
   if (ten === "") return;
