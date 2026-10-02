@@ -23,6 +23,7 @@ from.addEventListener("submit", (e) => {
 
   span.addEventListener("click", () => {
     span.classList.toggle("da-mua");
+    
   });
 
   const nutXoa = document.createElement("button");
