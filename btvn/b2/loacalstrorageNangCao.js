@@ -10,7 +10,6 @@ function luuDuLieu() {
         });
     });
     localStorage.setItem("dsMonAn", JSON.stringify(mangDuLieu));
-    capNhatSoLuong();
 }
 
 function taoMonAn(ten, trangThaiMua) {
