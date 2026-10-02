@@ -1,0 +1,39 @@
+.da-mua {
+  text-decoration: line-through;
+  color: gray;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  line-height: 1.6;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.box input {
+  padding: 6px 8px;
+  width: 200px;
+  max-width: 100%;
+}
+
+#box-ds {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+#box-ds li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+#box-ds button {
+  cursor: pointer;
+}
