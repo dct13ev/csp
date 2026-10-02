@@ -18,4 +18,5 @@ from.addEventListener("submit", (e) => {
     nutXoa.addEventListener("click", () => {
         li.remove();
     });
+    
 })
