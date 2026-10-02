@@ -1,6 +1,7 @@
 const boxTen = document.querySelector("#box-ten");
 const boxDs = document.querySelector("#box-ds");
 const from = document.querySelector("#from");
+const soDem = document.querySelector("#so-dem");
 
 from.addEventListener("submit", (e) => {
   e.preventDefault();
