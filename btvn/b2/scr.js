@@ -6,4 +6,6 @@ from.addEventListener("submit", (e) => {
     e.preventDefault();
     const ten = boxTen.ariaValueMax.trim();
     if (ten === "") return;
+
+    const li = document.createElement("li");
 })
