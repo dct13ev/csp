@@ -9,6 +9,7 @@ function luuDuLieu() {
             daMua: theSpan.classList.contains("da-mua") 
         });
     });
+    
     capNhatSoLuong();
 }
 
