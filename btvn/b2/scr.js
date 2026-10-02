@@ -3,12 +3,12 @@ const boxDs = document.querySelector("#box-ds");
 const from = document.querySelector("#from");
 const soLuong = document.querySelector("#so-luong");
 
-function capNhatSoDem() {
+function capNhatSoLuong() {
   const tongSoMon = document.querySelectorAll("#box-ds li").length;
   const soDaMua = document.querySelectorAll("#box-ds .da-mua").length;
   const chuaMua = tongSoMon - soDaMua;
   
-  soDem.textContent = `${chuaMua}/${tongSoMon}`;
+  soLuong.textContent = `${chuaMua}/${tongSoMon}`;
 }
 
 from.addEventListener("submit", (e) => {
