@@ -7,7 +7,6 @@ function capNhatSoDem() {
   const tongSoMon = document.querySelectorAll("#box-ds li").length;
   const soDaMua = document.querySelectorAll("#box-ds .da-mua").length;
   const chuaMua = tongSoMon - soDaMua;
-  
   soDem.textContent = `${chuaMua}/${tongSoMon}`;
 }
 
@@ -17,8 +16,7 @@ from.addEventListener("submit", (e) => {
   if (ten === "") return;
 
   const li = document.createElement("li");
-  li.setAttribute("id", `mon-${Date.now()}`);
-  li.classList.add("mon-an");
+
   const span = document.createElement("span");
   span.textContent = ten;
 
