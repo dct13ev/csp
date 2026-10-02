@@ -33,7 +33,7 @@ from.addEventListener("submit", (e) => {
   });
 
   span.addEventListener("dblclick", () => {
-    li.remove(); // Xóa thẻ li chứa món ăn đó khỏi danh sách
+    li.remove(); 
   });
 
   li.append(span, nutXoa);
