@@ -4,7 +4,7 @@ const from = document.querySelector("#from");
 
 from.addEventListener("submit", (e) => {
   e.preventDefault();
-  const ten = boxTen.ariaValueMax.trim();
+  const ten = boxTen.value.trim();
   if (ten === "") return;
 
   const li = document.createElement("li");
