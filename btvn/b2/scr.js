@@ -7,6 +7,7 @@ function capNhatSoDem() {
   const tongSoMon = document.querySelectorAll("#box-ds li").length;
   const soDaMua = document.querySelectorAll("#box-ds .da-mua").length;
   const chuaMua = tongSoMon - soDaMua;
+  soDem.textContent = `${chuaMua}/${tongSoMon}`;
 }
 
 from.addEventListener("submit", (e) => {
