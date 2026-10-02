@@ -19,7 +19,9 @@ from.addEventListener("submit", (e) => {
         li.remove();
     });
     
-
+span.addEventListener("click", () => {
+    span.classList.toggle("da-mua"); 
+    });
     
     li.append(span, nutXoa);
     boxDs.append(li);
