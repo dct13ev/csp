@@ -1,7 +1,7 @@
 const boxTen = document.querySelector("#box-ten");
 const boxDs = document.querySelector("#box-ds");
 const from = document.querySelector("#from");
-const soDem = document.querySelector("#so-dem");
+const soDem = document.querySelector("#soluong");
 
 function capNhatSoDem() {
   const tongSoMon = document.querySelectorAll("#box-ds li").length;
