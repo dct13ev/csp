@@ -2,7 +2,7 @@ function luuDuLieu() {
     const mangDuLieu = [];
     const dsLi = document.querySelectorAll("#box-ds li");
     
-    danhSachLi.forEach(li => {
+    dsLi.forEach(li => {
         const theSpan = li.querySelector("span");
         mangDuLieu.push({
             ten: theSpan.textContent,
