@@ -1,1 +1,1 @@
-con
+const boxTen = document.querySelector('.box-ten');
