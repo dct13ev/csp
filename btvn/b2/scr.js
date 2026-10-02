@@ -3,5 +3,5 @@ const boxDs = document.querySelector('#box-ds');
 const form = document.querySelector('#form');
 
 from.addEventListener("submit", (e) => {
-    e.pre
+    e.preventDefault()
 })
