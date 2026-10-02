@@ -10,4 +10,7 @@ from.addEventListener("submit", (e) => {
     const li = document.createElement("li");
 
     const span = document.createElement("span");
+    span.textContent = ten;
+
+    
 })
