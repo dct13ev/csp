@@ -23,6 +23,7 @@ from.addEventListener("submit", (e) => {
     li.remove();
   });
 
+
   li.append(span, nutXoa);
   boxDs.append(li);
   boxTen.value = "";
