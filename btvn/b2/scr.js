@@ -23,7 +23,7 @@ from.addEventListener("submit", (e) => {
 
   span.addEventListener("click", () => {
     span.classList.toggle("da-mua");
-    capNH
+    capNhatSoLuong();
   });
 
   const nutXoa = document.createElement("button");
