@@ -9,7 +9,7 @@ function luuDuLieu() {
             daMua: theSpan.classList.contains("da-mua") 
         });
     });
-    
+    localStorage.setItem("dsMonAn", JSON.stringify(mangDuLieu));
     capNhatSoLuong();
 }
 
