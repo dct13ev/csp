@@ -15,4 +15,8 @@ from.addEventListener("submit", (e) => {
     const nutXoa = document.createElement("button");
     nutXoa.type = "button";
     nutXoa.textContent = "X";
+
+    li.appendChild(span);
+    li.appendChild(nutXoa);
+    boxDs.appendChild(li);  
 })
