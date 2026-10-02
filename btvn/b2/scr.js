@@ -8,5 +8,6 @@ from.addEventListener("submit", (e) => {
     if (ten === "") return;
 
     const li = document.createElement("li");
-    
+
+    const span = document.createElement("span");
 })
