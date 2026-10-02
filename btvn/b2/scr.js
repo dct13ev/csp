@@ -4,7 +4,7 @@ const from = document.querySelector("#from");
 const soDem = document.querySelector("#so-dem");
 
 function capNhatSoDem() {
-  const soLuongMonAn = boxDs.querySelectorAll("li").length;
+  const tongSoMon = document.querySelectorAll("#box-ds li").length;
   soDem.textContent = `Số lượng món ăn: ${soLuongMonAn}`;
 }
 
