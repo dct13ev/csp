@@ -12,5 +12,7 @@ from.addEventListener("submit", (e) => {
     const span = document.createElement("span");
     span.textContent = ten;
 
-    
+    const nutXoa = document.createElement("button");
+    nutXoa.type = "button";
+    nutXoa.textContent = "X";
 })
