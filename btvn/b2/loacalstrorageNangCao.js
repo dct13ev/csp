@@ -21,6 +21,7 @@ function taoMonAn(ten, trangThaiMua) {
     if (trangThaiMua === true) {
         span.classList.add("da-mua");
     }
+    
     capNhatSoLuong();
 }
 
