@@ -23,6 +23,10 @@ from.addEventListener("submit", (e) => {
     li.remove();
   });
 
+  span.addEventListener("dblclick", () => {
+    li.remove(); // Xóa thẻ li chứa món ăn đó khỏi danh sách
+  });
+
   li.append(span, nutXoa);
   boxDs.append(li);
   boxTen.value = "";
