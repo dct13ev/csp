@@ -7,7 +7,7 @@ function capNhatSoLuong() {
   const tongSoMon = document.querySelectorAll("#box-ds li").length;
   const soDaMua = document.querySelectorAll("#box-ds .da-mua").length;
   const chuaMua = tongSoMon - soDaMua;
-  
+
   soLuong.textContent = `${chuaMua}/${tongSoMon}`;
 }
 
@@ -35,7 +35,7 @@ from.addEventListener("submit", (e) => {
   });
 
   span.addEventListener("dblclick", () => {
-    li.remove(); 
+    li.remove();
     capNhatSoLuong();
   });
 
