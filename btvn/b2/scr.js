@@ -12,7 +12,7 @@ from.addEventListener("submit", (e) => {
   const span = document.createElement("span");
   span.textContent = ten;
 
-    span.addEventListener("click", () => {
+  span.addEventListener("click", () => {
     span.classList.toggle("da-mua");
   });
 
