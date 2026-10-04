@@ -16,4 +16,4 @@ $products = [
         "quantity" => 3
     ]
 ];
-$thanhtien = pr;
+$thanhtien = price * quantity;
