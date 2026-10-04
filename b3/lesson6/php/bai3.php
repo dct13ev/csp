@@ -17,6 +17,8 @@ $products = [
     ]
 ];
 
+$tongtien = 0;
+
 echo " DANH SÁCH SẢN PHẨM \n\n";
 
 foreach ($products as $product) {
