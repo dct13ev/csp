@@ -8,7 +8,7 @@
 $dsn = "mysql:host=127.0.0.1;port=3306;dbname=bai9_quan_ly_sinh_vien;charset=utf8mb4";
 
 try {
-    $pdo = new PDO($dsn, "root", "123456789", [
+    $pdo = new PDO($dsn, "root", "", [
         PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION, // có lỗi SQL thì báo lỗi ngay
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,       // kết quả trả về dạng mảng ["cột" => giá trị]
     ]);
