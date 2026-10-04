@@ -10,3 +10,7 @@ if ($score >= 8) {
 } else {
     $result = "Yếu";
 }
+echo "Tên sinh viên: " . $name . "<br>";
+echo "Điểm: " . $score . "<br>";
+echo "Xếp hạng: " . $result . "<br>";
+?>
