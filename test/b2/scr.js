@@ -1,6 +1,7 @@
 const boxTen = document.querySelector("#box-ten");
 const boxDs = document.querySelector("#box-ds");
-const from = document.querySelector("#form");
+const form = document.querySelector("#form");
+const soLuong = document.querySelector("#so-luong");
 
 function capNhatSoLuong() {
   const tongSoMon = document.querySelectorAll("#box-ds li").length;
@@ -10,7 +11,7 @@ function capNhatSoLuong() {
   soLuong.textContent = `${chuaMua}/${tongSoMon}`;
 }
 
-from.addEventListener("submit", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
   const ten = boxTen.value.trim();
   if (ten === "") return;
