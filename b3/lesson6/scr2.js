@@ -49,3 +49,4 @@ $(document).ready(function() {
         $("#o-ten").val("").focus();
     });
 });
+$(o-ten).css("color", "blue")
