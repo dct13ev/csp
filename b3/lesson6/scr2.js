@@ -13,7 +13,7 @@ from.addEventListener("submit", (e) => {
   span.textContent = ten;
 
   const nutXoa = document.createElement("button");
-  nutXoa.te = "button";
+  nutXoa.type = "button";
   nutXoa.textContent = "X";
   nutXoa.addEventListener("click", () => {
     li.remove();
