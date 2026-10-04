@@ -34,7 +34,7 @@ foreach ($products as $product) {
 $giamgia = $tongtien >= 100000 ? $tongtien * 0.1 : 0;
 $tongtiencanthanhtoan = $tongtien - $giamgia;
 
-echo "\nTạm tính: " . number_format($tongtien) . " VNĐ\n";
+echo "\nThanh: " . number_format($tongtien) . " VNĐ\n";
 echo "Giảm giá: " . number_format($giamgia) . " VNĐ\n";
 echo "Thanh toán: " . number_format($tongtiencanthanhtoan) . " VNĐ\n";
 ?>
