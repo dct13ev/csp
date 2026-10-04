@@ -5,7 +5,7 @@
 // define("DB_PASS", "12345678");   // <-- ĐIỀN MẬT KHẨU MYSQL CỦA BẠN VÀO ĐÂY (XAMPP mặc định để trống)
 
 // DSN: chuỗi mô tả "kết nối tới đâu"
-$dsn = "mysql:host=127.0.0.1;port=3307;dbname=de;charset=utf8mb4";
+$dsn = "mysql:host=127.0.0.1;port=3307;dbname=;charset=utf8mb4";
 
 try {
     $pdo = new PDO($dsn, "root", "", [
