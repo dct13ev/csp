@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ví dụ jQuery</title>
+</head>
+<body>
+
+    <h1>Tiêu đề trang</h1>
+    <p id="myParagraph">Một đoạn văn bản sẽ bị ẩn.</p>
+    <button id="myButton">Ẩn đoạn văn</button>
+
+    <!-- Thêm jQuery từ CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Mã jQuery của bạn -->
+    <script>
+        // Chờ tài liệu (DOM) tải xong
+        $(document).ready(function() {
+            
+            // Lắng nghe sự kiện click trên nút có id "myButton"
+            $("#myButton").click(function() {
+                // Ẩn phần tử có id "myParagraph"
+                $("#myParagraph").hide();
+            });
+
+        });
+    </script>
+</body>
+</html>
