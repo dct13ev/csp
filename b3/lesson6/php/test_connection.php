@@ -2,5 +2,5 @@ $dsn = "mysql:host=localhost;dbname=demo_sql";
 
 try {
     $pdo = new PDO($dsn, "root", "");
-    PDO::At
+    PDO::ATTE_
 }   
