@@ -16,3 +16,4 @@ $products = [
         "quantity" => 3
     ]
 ];
+$thanhtien = ;
