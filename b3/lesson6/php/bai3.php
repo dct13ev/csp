@@ -16,4 +16,22 @@ $products = [
         "quantity" => 3
     ]
 ];
-$thanhtien = price * quantity;
+echo "===== DANH SÁCH SẢN PHẨM =====\n\n";
+
+foreach ($products as $product) {
+    $thanhtien = $product["price"] * $product["quantity"];
+    $tongtien += $thanhtien;
+
+    echo $product["name"] . " - "
+        . number_format($product["price"]) . " VNĐ x "
+        . $product["quantity"] . " = "
+        . number_format($thanhtien) . " VNĐ\n";
+}
+
+$giamgia = $tongtien >= 100000 ? $tongtien * 0.1 : 0;
+$tongtiencanthanhtoan = $tongtien - $giamgia;
+
+echo "\nTạm tính: " . number_format($tongtien) . " VNĐ\n";
+echo "Giảm giá: " . number_format($giamgia) . " VNĐ\n";
+echo "Thanh toán: " . number_format($tongtiencanthanhtoan) . " VNĐ\n";
+?>
