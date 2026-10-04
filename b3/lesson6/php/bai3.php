@@ -26,8 +26,8 @@ foreach ($products as $product) {
     $tongtien += $thanhtien;
 
     echo $product["name"] . " - "
-        . number_format($product["price"]) . " VNĐ x "
-        . $product["quantity"] . " = "
+        . number_format($product["price"])
+        . $product["quantity"]
         . number_format($thanhtien) . " VNĐ\n";
 }
 
