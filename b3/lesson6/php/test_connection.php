@@ -14,7 +14,7 @@ try {
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,       // kết quả trả về dạng mảng ["cột" => giá trị]
     ]);
 
-    $dsSinhVien = $pdo->query("SELECT id, ho_vien, lop, diem FROM hoc_vien ORDER BY id")->fetchAll();
+    $dsSinhVien = $pdo->query("SELECT id, ho_ten, lop, diem FROM hoc_vien ORDER BY id")->fetchAll();
     echo json_encode($dsSinhVien);
 } catch (PDOException $e) {
     // Không kết nối được: dừng chương trình và báo lỗi dễ hiểu
