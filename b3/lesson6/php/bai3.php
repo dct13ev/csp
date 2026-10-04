@@ -17,9 +17,7 @@ $products = [
     ]
 ];
 
-$tongtien = 0;
-
-echo "===== DANH SÁCH SẢN PHẨM =====\n\n";
+$tongtien = 0
 
 foreach ($products as $product) {
     $thanhtien = $product["price"] * $product["quantity"];
