@@ -1,4 +1,4 @@
-<
+<?php
 // define("DB_HOST", "127.0.0.1"); // máy local. Dùng 127.0.0.1 (không dùng "localhost") để PHP kết nối qua cổng 3306
 // define("DB_PORT", 3306);        // cổng mặc định của MySQL
 // define("DB_NAME", "bai9_quan_ly_sinh_vien");
