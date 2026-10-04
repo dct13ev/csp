@@ -17,7 +17,6 @@ $products = [
     ]
 ];
 
-$tongtien = 0
 
 foreach ($products as $product) {
     $thanhtien = $product["price"] * $product["quantity"];
