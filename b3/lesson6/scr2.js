@@ -48,7 +48,7 @@ $(document).ready(function() {
         // 4. Xóa rỗng ô nhập liệu và tự động trỏ chuột lại vào ô đó (chaining)
         $("#o-ten").val("").focus();
 
-        
+        $("#o-ten").val("").focus();
     });
 });
 
