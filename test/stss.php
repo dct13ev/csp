@@ -1,4 +1,4 @@
 <?php
 header("X-author: NTDũng")
 ?> 
-<div style="displa"
+<div style="display"
