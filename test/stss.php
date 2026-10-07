@@ -1,3 +1,3 @@
 <?php
-header("X-")
+header("X-author:")
 ?> 
