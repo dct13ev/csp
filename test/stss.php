@@ -1,4 +1,4 @@
 <?php
 header("X-author: NTDũng")
 ?> 
-<div style="display: flex"
+<div style="display: flex; gap"
