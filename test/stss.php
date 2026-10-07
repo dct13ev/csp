@@ -1,3 +1,3 @@
 <?php
-header("X-author: NT")
+header("X-author: NTDũng")
 ?> 
