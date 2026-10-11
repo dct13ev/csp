@@ -73,7 +73,7 @@ $products = $pdo->query("SELECT * FROM products ORDER BY id DESC")->fetchAll();
                 <th>Giá</th>
                 <th>SL</th>
                 <th>Mô tả</th>
-                <th>Hành động</th>
+                <th>thao tác</th>
             </tr>
         </thead>
         <tbody>
