@@ -17,18 +17,20 @@ $products = $pdo->query("SELECT * FROM products ORDER BY id DESC")->fetchAll();
     <meta charset="UTF-8">
     <title>Quản lý Sản phẩm</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f4f4f9; margin: 20px; }
-        .container { max-width: 900px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        body { font-family: Arial, sans-serif; background: #121212; color: #e0e0e0; margin: 20px; }
+        .container { max-width: 900px; margin: auto; background: #1e1e1e; padding: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
         .form-group { margin-bottom: 10px; }
-        input { padding: 8px; width: 100%; box-sizing: border-box; margin-top: 5px; }
+        input { padding: 8px; width: 100%; box-sizing: border-box; margin-top: 5px; background: #2d2d2d; border: 1px solid #444; color: #ffffff; border-radius: 4px; }
+        input:focus { outline: none; border-color: #007bff; }
         .btn { padding: 8px 15px; color: #fff; border: none; cursor: pointer; text-decoration: none; border-radius: 4px; display: inline-block; }
         .btn-add { background: #28a745; }
         .btn-update { background: #007bff; }
         .btn-edit { background: #ffc107; color: #000; padding: 5px 10px; }
         .btn-delete { background: #dc3545; padding: 5px 10px; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-        th { background: #333; color: white; }
+        th, td { border: 1px solid #444; padding: 10px; text-align: left; }
+        th { background: #2c2c2c; color: #ffffff; }
+        tr:nth-child(even) { background-color: #252525; }
     </style>
 </head>
 <body>
@@ -70,10 +72,11 @@ $products = $pdo->query("SELECT * FROM products ORDER BY id DESC")->fetchAll();
             <tr>
                 <th>ID</th>
                 <th>Tên</th>
-                <th>Giá</th>
+                <th>Đơn giá</th>
                 <th>SL</th>
                 <th>Mô tả</th>
                 <th>Chỉnh sửa</th>
+                <th>Loại bỏ</th>
             </tr>
         </thead>
         <tbody>
@@ -86,6 +89,8 @@ $products = $pdo->query("SELECT * FROM products ORDER BY id DESC")->fetchAll();
                 <td><?= htmlspecialchars($row['description']) ?></td>
                 <td>
                     <a href="index.php?edit_id=<?= $row['id'] ?>" class="btn btn-edit">Sửa</a>
+                </td>
+                <td>
                     <a href="pocs.php?action=delete&id=<?= $row['id'] ?>" class="btn btn-delete" onclick="return confirm('Xóa sản phẩm này?');">Xóa</a>
                 </td>
             </tr>
