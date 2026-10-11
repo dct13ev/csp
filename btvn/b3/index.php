@@ -15,7 +15,7 @@ $products = $pdo->query("SELECT * FROM products ORDER BY id DESC")->fetchAll();
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Quản lý Sản phẩm - Tối ưu</title>
+    <title>Quản lý Sản phẩm</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f4f4f9; margin: 20px; }
         .container { max-width: 900px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
