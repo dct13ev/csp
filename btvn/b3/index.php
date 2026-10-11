@@ -8,7 +8,7 @@ if (isset($_GET['edit_id'])) {
     $edit_product = $stmt->fetch(); 
 }
 
-$products = $pdo->query("SELECT * FROM products ORDER BY id DESC")->fetchAll();
+$products = $pdo->query("SELECT * FROM products ORDER BY id ASC")->fetchAll();
 ?>
 
 <!DOCTYPE html>
