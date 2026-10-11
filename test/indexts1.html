@@ -1,86 +1,21 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bài tập test 01</title>
-  </head>
-  <body>
-    <header>
-      <form>
-        <label for="text">Textarea</label>
-        <br />
-        <textarea
-          id="text"
-          maxlength="140"
-          placeholder="jQueryScript.Net"
-        ></textarea>
-        <br />
-        <div class="bodem" id="text-count">Max 0 / 140</div>
-
-        <hr />
-
-        <label for="input">Input Field</label>
-        <br />
-        <input
-          type="text"
-          id="input"
-          maxlength="20"
-          placeholder="jQueryScript.Net j"
-        />
-        <br />
-        <div class="bodem" id="input-count">Maximum 0 / 20</div>
-      </form>
-      <style>
-        body {
-          font-family: Arial, sans-serif;
-          margin: 20px;
-        }
-
-        form {
-          max-width: 400px;
-          margin: auto;
-        }
-
-        label {
-          font-weight: bold;
-        }
-
-        textarea,
-        input[type="text"] {
-          width: 100%;
-          padding: 10px;
-          margin-top: 5px;
-          margin-bottom: 10px;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-        }
-
-        .bodem {
-          font-size: 0.9em;
-          color: #555;
-        }
-
-        hr {
-          margin: 20px 0;
-        }
-      </style>
-    </header>
-
-    <script>
-      const textArea = document.getElementById("text");
-      const textCount = document.getElementById("text-count");
-      const inputField = document.getElementById("input");
-      const inputCount = document.getElementById("input-count");
-
-      textArea.addEventListener("input", () => {
-        textCount.textContent = `Max ${textArea.value.length} / 140`;
-      });
-
-      inputField.addEventListener("input", () => {
-        inputCount.textContent = `Maximum ${inputField.value.length} / 20`;
-      });
-    </script>
-    <script src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý Sản phẩm</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f9; margin: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .form-group { margin-bottom: 10px; }
+        input { padding: 8px; width: 100%; box-sizing: border-box; margin-top: 5px; }
+        .btn { padding: 8px 15px; color: #fff; border: none; cursor: pointer; text-decoration: none; border-radius: 4px; display: inline-block; }
+        .btn-add { background: #28a745; }
+        .btn-update { background: #007bff; }
+        .btn-edit { background: #ffc107; color: #000; padding: 5px 10px; }
+        .btn-delete { background: #dc3545; padding: 5px 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background: #333; color: white; }
+    </style>
+</head>
+<body>
