@@ -15,4 +15,4 @@ CREATE TABLE IF NOT EXISTS products (
 INSERT INTO products (name, price, quantity, description) VALUES
 ('Laptop Dell XPS 15', 25000000, 10, 'Laptop văn phòng cao cấp'),
 ('Chuột Logitech G502', 1200000, 50, 'Chuột gaming không dây'),
-('Bàn phím cơ Keychron K8', 1800000, 30, 'Bàn phím cơ Bluetooth');
+('Bàn phím cơ Keychron K8', 1800000, 30, 'Bàn phím cơ Bluetooth');>
