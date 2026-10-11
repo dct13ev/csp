@@ -11,7 +11,6 @@ CREATE TABLE IF NOT EXISTS products (
     description TEXT
 );
 
--- Thêm dữ liệu demo
 INSERT INTO products (name, price, quantity, description) VALUES
 ('Laptop Dell XPS 15', 25000000, 10, 'Laptop văn phòng cao cấp'),
 ('Chuột Logitech G502', 1200000, 50, 'Chuột gaming không dây'),
