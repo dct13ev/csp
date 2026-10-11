@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+
+        body{
+            background-color: burlywood;
+            display: flex;
+            height: 100vh;
+            line-height: 100vh;
+        }
+      .mobile, 
+      .tablet, 
+      .pc {
+        color: blue;
+        font-size: 100px;
+        margin: 0 auto;
+        display: none;
+      }
+
+      @media screen and (max-width: 739px) {
+        .mobile {
+          display: block;
+        }
+      }
+      @media screen and (max-width: 1024px){
+        .pc {
+          display: block;
+        }
+      }
+      @media screen and (min-width: 740px) and (max-width: 1023px){
+        .tablet {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="mobile">Mobile</h2>
+    <h2 class="tablet">Tablet</h2>
+    <h2 class="pc">PC</h2>
+  </body>
+    <!-- end header -->
+  </html>
+  <h2
