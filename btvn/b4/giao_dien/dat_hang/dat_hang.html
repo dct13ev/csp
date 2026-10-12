@@ -1,0 +1,14 @@
+<div class="menu-container">
+  <h1 class="menu-title">ĐẶT HÀNG</h1>
+  {{message}}
+  <ul>
+    {{cart}}
+  </ul>
+  <form method="post">
+    <input type="hidden" name="place_order" value="1" />
+    <input name="customer_name" placeholder="Họ tên" required />
+    <input name="customer_phone" placeholder="Số điện thoại" required />
+    <input name="customer_address" placeholder="Địa chỉ giao hàng" required />
+    <button class="btn-add-cart" type="submit">Tạo đơn hàng</button>
+  </form>
+</div>
