@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thống kê</title>
+    <link rel="stylesheet" href="giao_dien/admin/thong_ke.css?v=1" />
+  </head>
+  <body>
+    <h1>Thống kê đơn hàng</h1>
+    <div class="stat-card">
+      <h2>Hôm nay</h2>
+      <p>{{today_orders}} đơn</p>
+      <strong>{{today_total}} đ</strong>
+    </div>
+    <div class="stat-card">
+      <h2>7 ngày</h2>
+      <p>{{week_orders}} đơn</p>
+      <strong>{{week_total}} đ</strong>
+    </div>
+    <div class="stat-card">
+      <h2>1 tháng</h2>
+      <p>{{month_orders}} đơn</p>
+      <strong>{{month_total}} đ</strong>
+    </div>
+    <div class="stat-card">
+      <h2>6 tháng</h2>
+      <p>{{six_months_orders}} đơn</p>
+      <strong>{{six_months_total}} đ</strong>
+    </div>
+    <div class="stat-card">
+      <h2>12 tháng</h2>
+      <p>{{year_orders}} đơn</p>
+      <strong>{{year_total}} đ</strong>
+    </div>
+    <a href="index.php?area=admin&page=home">Quay lại</a>
+  </body>
+</html>
