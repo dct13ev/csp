@@ -5,7 +5,6 @@
   font-family: Arial, sans-serif;
 }
 
-
 body {
   background-color: #121212;
   display: flex;
@@ -13,7 +12,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 
 .login-form {
   background-color: #1e1e1e;
@@ -103,4 +101,3 @@ body {
   color: #f39c12;
   text-decoration: underline;
 }
-
