@@ -47,9 +47,9 @@ function render_admin_home(): void
     render_template('giao_dien/admin/home.html', [
         '{{admin_username}}' => e($_SESSION['admin_username']),
         '{{admin_links}}' => '<nav class="admin-nav">'
-            . '<a href="index.php?area=admin&page=products">Quản lý món</a>'
-            . '<a href="index.php?area=admin&page=orders">Đơn hàng</a>'
-            . '<a href="index.php?area=admin&page=stats">Thống kê</a>'
+            . '<a href="index.php?area=admin&page=san_phan">Quản lý món</a>'
+            . '<a href="index.php?area=admin&page=don_hang">Đơn hàng</a>'
+            . '<a href="index.php?area=admin&page=thong_ke">Thống kê</a>'
             . '<a href="index.php?area=admin&page=logout">Đăng xuất</a>'
             . '</nav>',
     ]);
