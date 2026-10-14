@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý món</title>
+    <link rel="stylesheet" href="giao_dien/admin/san_phan.css?v=1" />
+  </head>
+  <body>
+    <h1>Quản lý món</h1>
+    <p>{{message}}</p>
+    <form method="post">
+      <input type="hidden" name="action" value="save" /><input
+        name="name"
+        placeholder="Tên món"
+        required
+      /><input
+        name="price"
+        type="number"
+        min="0"
+        placeholder="Giá"
+        required
+      /><button>Lưu món</button>
+    </form>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Tên</th>
+        <th>Giá</th>
+        <th>Thao tác</th>
+      </tr>
+      {{rows}}
+    </table>
+    <a href="index.php?area=admin&page=home">Quay lại</a>
+  </body>
+</html>
