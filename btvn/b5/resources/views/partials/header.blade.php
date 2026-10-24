@@ -3,11 +3,10 @@
   <
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-    <div class="container">
-        <a class="navbar-brand fw-bold fs-3" href="#">Demo</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto fw-medium">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+  <div class="container">
+    <a class="navbar-brand font-weight-bold" href="#">BÁO MỚI 24H</a>
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item"><a class="nav-link active" href="#">Trang chủ</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Bài viết</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
