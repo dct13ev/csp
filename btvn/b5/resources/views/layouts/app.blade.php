@@ -14,7 +14,6 @@
 </head>
 <body>
 
-  <!-- Gọi file header -->
   @include('partials.header')
 
   <!-- Vùng để chèn nội dung của các trang con -->
