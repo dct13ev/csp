@@ -17,6 +17,5 @@ Route::get('/', function () {
         ]
     ];
 
-    // Trả về view home và truyền mảng dữ liệu vào biến $posts
     return view('home', ['posts' => $danhSachBaiViet]);
 });
