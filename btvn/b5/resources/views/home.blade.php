@@ -22,7 +22,7 @@
           @foreach($posts as $post)
               <h2>{{ $post['title'] }}</h2>
               <h5>Ngày đăng: {{ $post['date'] }}</h5>
-              <div class="fakeimg">Ảnh bìa bài viết</div>
+              <div class="fakeimg">Demo</div>
               <p class="mt-3">{{ $post['content'] }}</p>
               <br>
           @endforeach
