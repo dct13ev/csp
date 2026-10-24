@@ -3,7 +3,7 @@
   <p>Chào mừng bạn đến với Blog của tôi!</p>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container">
         <a class="navbar-brand fw-bold fs-3" href="#">Weblog</a>
         <div class="collapse navbar-collapse">
