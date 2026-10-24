@@ -23,7 +23,6 @@
       @endif
     </div>
     <div class="col-sm-4">
-      <!-- Giữ lại khối Về tôi và ảnh đại diện của bạn -->
       <h2>Về tôi</h2>
       <h5>Ảnh đại diện:</h5>
       <img src="{{ asset('pictures/meme-meo-cuoi-chi-tay-dep-nhat.jpg') }}" class="img-fluid mb-4" alt="Ảnh đại diện">
