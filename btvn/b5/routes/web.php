@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $danhSachBaiViet = [
         [
-            'title' => 'BÀI VIẾT MẪU', 
+            'title' => 'BÀI VIẾT MỚI', 
             'date' => 'Dec 7, 2017', 
             'content' => 'Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
         ],
