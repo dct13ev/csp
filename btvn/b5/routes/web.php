@@ -8,7 +8,7 @@ Route::get('/', function () {
             'title' => 'BÀI VIẾT MỚI', 
             'date' => '22/10/2026', 
             'content' => 'Text demo'
-        ],
+        ]
     ];
 
     return view('home', ['posts' => $danhSachBaiViet]);
