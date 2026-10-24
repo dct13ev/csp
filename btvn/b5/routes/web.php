@@ -7,7 +7,7 @@ Route::get('/', function () {
         [
             'title' => 'BÀI VIẾT MỚI', 
             'date' => '22/10/2026', 
-            'content' => ''
+            'content' => 'Text de'
         ],
         [
             'title' => 'TITLE HEADING', 
