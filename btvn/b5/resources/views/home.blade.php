@@ -24,7 +24,7 @@
     </div>
     <div class="col-sm-4">
       <h2>Về tác giả</h2>
-      <h5
+      <h5> </h5>
       <img src="{{ asset('pictures/meme-meo-cuoi-chi-tay-dep-nhat.jpg') }}" class="img-fluid mb-4" alt="Ảnh đại diện">
       <p>Tận hưởng những tuyệt vời :)))) </p>
       <h5 class="font-weight-bold border-bottom pb-2 mb-3">Bài viết nổi bật</h5>
