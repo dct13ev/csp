@@ -20,7 +20,7 @@
           @foreach($posts as $post)
               <h2>{{ $post['title'] }}</h2>
               <h5>Ngày đăng: {{ $post['date'] }}</h5>
-              <div class="fakeimg">Demo</div>
+              <img src="{{ asset('pictures/meme-meo-cuoi-chi-tay-dep-nhat.jpg') }}" class="img-fluid" alt="Ảnh đại diện">
               <p class="mt-3">{{ $post['content'] }}</p>
               <br>
           @endforeach
