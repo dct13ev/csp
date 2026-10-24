@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
   <div class="container">
-    <a class="navbar-brand font-weight-bold" href="#">Ưeb</a>
+    <a class="navbar-brand font-weight-bold" href="#">Web</a>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item"><a class="nav-link active" href="#">Trang chủ</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Bài viết</a></li>
