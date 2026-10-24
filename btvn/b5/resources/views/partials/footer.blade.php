@@ -1,3 +1,3 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <p>202</p>
+  <p>2026 My Blog. All rights reserved.</p>
 </div>
