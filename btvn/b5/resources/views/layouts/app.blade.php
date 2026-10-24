@@ -16,7 +16,6 @@
 
   @include('partials.header')
 
-  <!-- Vùng để chèn nội dung của các trang con -->
   @yield('content')
 
   <!-- Gọi file footer -->
