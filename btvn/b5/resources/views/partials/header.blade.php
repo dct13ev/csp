@@ -12,7 +12,7 @@
     <ul class="navbar-nav">
       <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Bài viết</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Link</a></li>  
+      <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>  
     </ul>
   </div>  
 </nav>
