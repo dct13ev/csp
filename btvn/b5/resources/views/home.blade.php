@@ -22,8 +22,6 @@
           <p>Trang demo chưa có bài viết nào.</p>
       @endif
     </div>
-
-    <!-- Cột phụ: Sidebar tác giả & Tin đọc nhiều (4 phần) -->
     <div class="col-sm-4">
       <!-- Giữ lại khối Về tôi và ảnh đại diện của bạn -->
       <h2>Về tôi</h2>
