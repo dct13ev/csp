@@ -8,7 +8,6 @@
       <h2>Về tôi</h2>
       <h5>Ảnh đại diện:</h5>
       <div class="fakeimg">Demo</div>
-      <p>Xin chào.</p>
       <h3>Danh mục</h3>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item"><a class="nav-link active" href="#">Công nghệ</a></li>
