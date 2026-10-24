@@ -26,7 +26,7 @@
       <h2>Về tôi</h2>
       <h5>Ảnh đại diện:</h5>
       <img src="{{ asset('pictures/meme-meo-cuoi-chi-tay-dep-nhat.jpg') }}" class="img-fluid mb-4" alt="Ảnh đại diện">
-      
+      <p
       <h5 class="font-weight-bold border-bottom pb-2 mb-3">Bài viết nổi bật</h5>
       <ul class="list-unstyled">
         <li class="mb-3"><a href="#" class="text-dark font-weight-bold">Bài viết số 1...</a></li>
