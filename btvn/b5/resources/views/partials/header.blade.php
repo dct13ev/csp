@@ -11,7 +11,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
-      <li class="nav-item"><a class="nav-link" href="#"></a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Bài viết</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Link</a></li>  
     </ul>
   </div>  
