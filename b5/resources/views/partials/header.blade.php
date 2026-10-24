@@ -1,18 +1,15 @@
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>My First Blog</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Link</a></li>  
-    </ul>
-  </div>  
-</nav>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ url('/') }}" aria-label="Mộc - trang chủ">
+      <span class="brand-mark">M</span>
+      <span><strong>Mộc</strong><small>stories &amp; slow living</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a class="active" href="{{ url('/') }}">Trang chủ</a>
+      <a href="#bai-viet">Bài viết</a>
+      <a href="#gioi-thieu">Về Mộc</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+    <button class="menu-button" type="button" aria-label="Mở menu">☰</button>
+  </div>
+</header>
