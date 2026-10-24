@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    // Dữ liệu giả lập thay cho Database
     $danhSachBaiViet = [
         [
             'title' => 'TITLE HEADING', 
