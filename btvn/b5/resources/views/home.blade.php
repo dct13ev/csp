@@ -10,7 +10,7 @@
       <div class="fakeimg">Demo</div>
       <h3>Danh mục</h3>
       <ul class="nav nav-pills flex-column">
-        <li class="nav-item"><a class="nav-link active" href="#">Công nghệ</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Demo</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Du lịch</a></li>
       </ul>
       <hr class="d-sm-none">
