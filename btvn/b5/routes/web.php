@@ -6,7 +6,7 @@ Route::get('/', function () {
     $danhSachBaiViet = [
         [
             'title' => 'BÀI VIẾT MỚI', 
-            'date' => '22/2026', 
+            'date' => '22/10/2026', 
             'content' => 'Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
         ],
         [
