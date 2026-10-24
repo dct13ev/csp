@@ -11,7 +11,7 @@
       <h3>Danh mục</h3>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item"><a class="nav-link active" href="#">Demo</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Du lịch</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Demo</a></li>
       </ul>
       <hr class="d-sm-none">
     </div>
