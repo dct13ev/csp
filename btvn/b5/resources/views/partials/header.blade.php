@@ -6,10 +6,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container">
         <a class="navbar-brand font-weight-bold" href="#">Weblog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav"></div>
             <ul class="navbar-nav ms-auto fw-medium">
       <li class="nav-item"><a class="nav-link active" href="#">Trang chủ</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Bài viết</a></li>
