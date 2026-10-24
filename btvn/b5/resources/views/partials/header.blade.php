@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold fs-3" href="#"></a>
+        <a class="navbar-brand fw-bold fs-3" href="#">Demo</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto fw-medium">
       <li class="nav-item"><a class="nav-link active" href="#">Trang chủ</a></li>
