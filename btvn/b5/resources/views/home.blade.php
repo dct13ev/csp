@@ -5,7 +5,7 @@
   <div class="row">
     
     <div class="col-sm-8">
-      <h4 class="text-danger font-weight-bold border-bottom pb-2 mb-4">B</h4>
+      <h4 class="text-danger font-weight-bold border-bottom pb-2 mb-4">BÀI <Var></Var></h4>
       
       @if(!empty($posts))
           @foreach($posts as $post)
