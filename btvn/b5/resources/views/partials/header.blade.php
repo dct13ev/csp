@@ -9,6 +9,7 @@
             <ul class="navbar-nav ms-auto fw-medium">
       <li class="nav-item"><a class="nav-link active" href="#">Trang chủ</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Bài viết</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
     </ul>
   </div>  
 </nav>
