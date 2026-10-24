@@ -3,7 +3,6 @@
 @section('content')
 <div class="container" style="margin-top:30px; margin-bottom:30px">
   <div class="row">
-    <!-- Cột Sidebar -->
     <div class="col-sm-4">
       <h2>Về tôi</h2>
       <h5>Ảnh đại diện:</h5>
@@ -16,7 +15,6 @@
       <hr class="d-sm-none">
     </div>
 
-    <!-- Cột Bài viết -->
     <div class="col-sm-8">
       @if(!empty($posts))
           @foreach($posts as $post)
