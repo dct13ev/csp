@@ -32,7 +32,7 @@
       
       <h5 class="font-weight-bold border-bottom pb-2 mb-3">TIN ĐỌC NHIỀU</h5>
       <ul class="list-unstyled">
-        <li class="mb-3"><a href="#" class="text-dark font-weight-bold"> số 1...</a></li>
+        <li class="mb-3"><a href="#" class="text-dark font-weight-bold">B số 1...</a></li>
         <li class="mb-3"><a href="#" class="text-dark font-weight-bold">Demo tin tức số 2...</a></li>
         <li class="mb-3"><a href="#" class="text-dark font-weight-bold">Demo tin tức số 3...</a></li>
       </ul>
