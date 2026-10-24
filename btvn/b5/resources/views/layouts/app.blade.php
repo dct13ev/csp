@@ -18,7 +18,6 @@
 
   @yield('content')
 
-  <!-- Gọi file footer -->
   @include('partials.footer')
 
 </body>
