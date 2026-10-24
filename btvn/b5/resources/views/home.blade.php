@@ -6,7 +6,7 @@
     <div class="col-sm-4">
       <h2>Về tôi</h2>
       <h5>Ảnh đại diện:</h5>
-      <img src="link_anh_cua_ban.jpg" class="img-fluid" alt="Ảnh đại diện">
+      <img src="{{ asset('pictures/meme-meo-cuoi-chi-tay-dep-nhat.jpg') }}" class="img-fluid" alt="Ảnh đại diện">
       <h3>Danh mục</h3>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item"><a class="nav-link active" href="#">Demo</a></li>
