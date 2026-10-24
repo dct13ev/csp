@@ -4,7 +4,6 @@
 <div class="container mt-5" style="margin-bottom:30px">
   <div class="row">
     
-    <!-- Cột chính: Danh sách Tin mới (8 phần) -->
     <div class="col-sm-8">
       <h4 class="text-danger font-weight-bold border-bottom pb-2 mb-4">TIN MỚI CẬP NHẬT</h4>
       
