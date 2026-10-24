@@ -27,7 +27,7 @@
               <br>
           @endforeach
       @else
-          <p>Chưa có bài viết nào được đăng.</p>
+          <p>Trang demo chưa có bài viết nào.</p>
       @endif
     </div>
   </div>
