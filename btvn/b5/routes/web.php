@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
-use App
+use App\Models\Post;
+use App\Models\User;
+
 
 Route::get('/', function () {
     $danhSachBaiViet = [
