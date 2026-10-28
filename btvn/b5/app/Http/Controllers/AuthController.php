@@ -13,6 +13,8 @@ class AuthController extends Controller
     public function showLogin(): View|RedirectResponse
     {
         if (Auth::check()) {
+            $this->logDailyCheck(request());
+
             return redirect()->route('home');
         }
 
@@ -32,6 +34,7 @@ class AuthController extends Controller
             Log::info('login success', [
                 'user' => Auth::user()?->only(['id', 'name', 'email']),
             ]);
+            $this->logDailyCheck($request);
 
             return redirect()->intended(route('home'));
         }
@@ -59,5 +62,28 @@ class AuthController extends Controller
         ]);
 
         return redirect()->route('home');
+    }
+
+    private function logDailyCheck(Request $request): void
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            Log::info('daily check info', [
+                'user' => null,
+            ]);
+
+            return;
+        }
+
+        $checkKey = 'daily_check_'.now()->toDateString();
+
+        if ($request->session()->pull($checkKey) !== true) {
+            Log::info('daily check info', [
+                'user' => $user->only(['id', 'name', 'email']),
+            ]);
+
+            $request->session()->put($checkKey, true);
+        }
     }
 }
