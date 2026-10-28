@@ -33,7 +33,7 @@
 <body>
     <main class="error">
         <span class="error-code">404</span>
-        <span class="error-message">tungph Error page</span>
+        <span class="error-message">Error page</span>
     </main>
 </body>
 </html>
