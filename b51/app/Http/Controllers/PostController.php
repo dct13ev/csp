@@ -3,57 +3,72 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 use App\Models\Post;
+use App\Models\User;
 use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
-    // lấy tất cả 
-    public function index() {
-        $posts = Post::all(); // DB::table('posts')->where('title', 'like', '%Laravel%')->get();
-        return view('post_index', ['posts' => $posts]);
+    public function index()
+    {
+        $posts = Post::with('user')->latest()->get();
+
+        return view('post_index', compact('posts'));
     }
 
-    // lấy bải ghi theo id
-    public function show($id) {
-        $post = Post::select('id', 'title', 'content', 'created_at', 'updated_at')
-        ->where('id', $id)->first();
-        return view('post_show', ['post' => $post]);
+    public function show(Post $post)
+    {
+        $post->load('user');
+
+        return view('post_show', compact('post'));
     }
 
-    public function create() {
-        return view('post_create');
+    public function create()
+    {
+        $users = User::orderBy('name')->get(['id', 'name']);
+
+        return view('post_create', compact('users'));
     }
 
-    public function store(Request $request) {
-        $post = new Post();
-        $post->user_id = 2;
-        $post->slug = Str::slug($request->title);
-        $post->title = $request->title;
-        $post->content = $request->content;
-        $post->save();
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'user_id' => ['required', 'exists:users,id'],
+            'title' => ['required', 'string', 'max:255'],
+            'content' => ['required', 'string'],
+        ]);
+
+        $validated['slug'] = Str::slug($validated['title']);
+        Post::create($validated);
+
         return redirect()->route('post.index');
     }
 
-    public function edit($id) {
+    public function edit(Post $post)
+    {
+        $users = User::orderBy('name')->get(['id', 'name']);
 
-        $post = Post::select('id', 'title', 'content', 'created_at', 'updated_at')
-        ->where('id', $id)->first();
-        return view('post_edit', ['post' => $post]);
+        return view('post_edit', compact('post', 'users'));
     }
 
-    public function update(Request $request, $id) {
-        $post = Post::find($id);
-        $post->title = $request->title;
-        $post->content = $request->content;
-        $post->save();
+    public function update(Request $request, Post $post)
+    {
+        $validated = $request->validate([
+            'user_id' => ['required', 'exists:users,id'],
+            'title' => ['required', 'string', 'max:255'],
+            'content' => ['required', 'string'],
+        ]);
+
+        $validated['slug'] = Str::slug($validated['title']);
+        $post->update($validated);
+
         return redirect()->route('post.index');
     }
 
-    public function destroy($id) {
-        $post = Post::find($id);
+    public function destroy(Post $post)
+    {
         $post->delete();
+
         return redirect()->route('post.index');
     }
 }
