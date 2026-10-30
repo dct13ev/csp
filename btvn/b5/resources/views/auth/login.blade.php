@@ -16,6 +16,10 @@
                 </div>
             @endif
 
+            @if (session('status'))
+                <div class="alert alert-success">{{ session('status') }}</div>
+            @endif
+
             <form method="POST" action="{{ route('login.store') }}">
                 @csrf
                 <div class="form-group">
@@ -49,6 +53,12 @@
 
                 <button type="submit" class="btn btn-danger">Đăng nhập</button>
             </form>
+
+            <div class="mt-3">
+                <a href="{{ route('password.request') }}">Quên mật khẩu?</a>
+                <span class="mx-2">|</span>
+                <a href="{{ route('register') }}">Đăng ký tài khoản</a>
+            </div>
         </div>
     </div>
 </div>
