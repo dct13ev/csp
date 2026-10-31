@@ -29,11 +29,6 @@
                     <input id="password" type="password" name="password" class="form-control" required>
                 </div>
 
-                <div class="form-check mb-3">
-                    <input id="remember" type="checkbox" name="remember" class="form-check-input">
-                    <label for="remember" class="form-check-label">Ghi nhớ đăng nhập</label>
-                </div>
-
                 <button type="submit" class="btn btn-danger">Đăng nhập</button>
             </form>
 
