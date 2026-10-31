@@ -39,7 +39,7 @@ class AuthController extends Controller
         Auth::login($user);
         $request->session()->regenerate();
 
-        return redirect()->route('home')->with('status', 'Đăng ký thành công. Email chào mừng đã được gửi đến bạn.');
+        return redirect()->route('home')->with('status', 'Đăng ký thành công.');
     }
 
     public function showLogin(): View|RedirectResponse
