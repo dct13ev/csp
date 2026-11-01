@@ -30,3 +30,7 @@ Route::post('/logout', [AuthController::class, 'logout'])
     ->middleware('auth')
     ->name('logout');
 
+Route::get('/mail', function () {
+    SendMAiJob::dispatchAfterResponse();
+    return 'Mail job dispatched!';
+});
