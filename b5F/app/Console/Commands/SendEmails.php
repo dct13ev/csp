@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-#[signature]
+#[signature('app:send-emails') ]
 class SendEmails extends Command
 {
     /**
