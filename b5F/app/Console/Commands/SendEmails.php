@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-#[\Attribute(\Attribute::TARGET_CLASS)]
+#[sin]
 class SendEmails extends Command
 {
     /**
