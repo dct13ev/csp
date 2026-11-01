@@ -2,9 +2,10 @@
 
 namespace App\Console\Commands;
 
+use App\Mail\WelcomeMail;
+use App\Models\User;
 use Illuminate\Console\Command;
-use Illuminate\Contracts\Queue\ShouldQueue;
-
+use Illuminate\Support\Facades\Mail;
 
 class SendEmails extends Command
 {
@@ -25,18 +26,25 @@ class SendEmails extends Command
     /**
      * Execute the console command.
      */
-    public function handle()
+    public function handle(): int
     {
         $email = $this->argument('email');
         $bcc = $this->option('bcc');
+        $user = User::where('email', $email)->first();
 
-        $send = Mail::to($email);
+        if (!$user) {
+            $this->error("No user found with email {$email}.");
+
+            return self::FAILURE;
+        }
+
+        $send = Mail::to($user);
         if (!empty($bcc)) {
             $send->bcc($bcc);
         }
-        $send->send(new VerifyEmail('ddd'));
-        $this->info('Mail sent to' . $email. ' with bcc ' . $bcc??'');
+        $send->send(new WelcomeMail($user));
+        $this->info("Mail sent to {$email}".($bcc ? " with bcc {$bcc}" : ''));
 
-        return Command::SUCCESS;
+        return self::SUCCESS;
     }
 }
