@@ -13,7 +13,7 @@ class SendEmails extends Command
      *
      * @var string
      */
-    protected $signature = 'app:send-email {email} ';
+    protected $signature = 'app:send-email {email} {';
 
     /**
      * The console command description.
