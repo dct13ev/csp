@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-#[sig]
+#[signatu]
 class SendEmails extends Command
 {
     /**
