@@ -20,7 +20,7 @@ class SendEmails extends Command
      *
      * @var string
      */
-    protected $description = 'sen';
+    protected $description = 'send';
 
     /**
      * Execute the console command.
